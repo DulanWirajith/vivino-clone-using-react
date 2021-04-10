@@ -3,15 +3,23 @@
     color: rgb(186, 22, 40) !important;
     font-size: 26px !important;
     line-height: 1.53846154 !important;
-    font-weight: 700;
+    font-weight: 1000 !important;
     font-family: "GraphikWeb", "Verdana", sans-serif;
-    letter-spacing: 0.03in;
-    margin-left: 40px;
+    letter-spacing: 0.04in;
+    // margin-left: 40px;
   }
   .navigationItem__navigationItem--3oq_b{
     position: relative;
     background-color: #fff;
     margin-right: 16px;
+  }
+
+  .profile-img{
+    background-image: url(./../../assests/img/search-icon.svg);
+  }
+
+  .cart-img{
+    height: 23px;
   }
 
 }
