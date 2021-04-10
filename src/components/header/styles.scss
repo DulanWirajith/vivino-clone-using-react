@@ -1,0 +1,29 @@
+@media only screen and (min-width: 992px) {
+  .vivino-logo {
+    color: rgb(186, 22, 40) !important;
+    font-size: 26px !important;
+    line-height: 1.53846154 !important;
+    font-weight: 700;
+    font-family: "GraphikWeb", "Verdana", sans-serif;
+    letter-spacing: 0.03in;
+    margin-left: 40px;
+  }
+  .navigationItem__navigationItem--3oq_b{
+    position: relative;
+    background-color: #fff;
+    margin-right: 16px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .vivino-logo {
+    color: rgb(90, 186, 22) !important;
+    font-size: 26px !important;
+    line-height: 1.53846154 !important;
+    font-weight: 700;
+    font-family: "GraphikWeb", "Verdana", sans-serif;
+    letter-spacing: 0.03in;
+    margin-left: 40px;
+  }
+}
