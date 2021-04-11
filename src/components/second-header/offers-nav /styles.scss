@@ -1,9 +1,7 @@
 .dropdown-custom {
   z-index: 100;
   position: relative;
-  // display: inline-block;
   border-radius: 2px;
-  // border: solid 0.5px #262626;
   width: 100px;
 
   .dropdown-custom-title {
@@ -25,7 +23,7 @@
   .dropdown-custom-title:hover {
     text-decoration: underline;
   }
-  .wine-img {
+  .offer-img {
     display: inline-block;
     float: left;
     // margin-top: 8px;
@@ -35,14 +33,14 @@
   }
 
   .dropdown-custom-content {
-    // display: none;
+    display: none;
     width:820px;
     position: absolute;
     background-color: white;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 100;
 
-    .wine-raw {
+    .offer-raw {
       margin: 20px 10px 20px 10px;
       // border: 1px solid black;
     }
@@ -50,21 +48,21 @@
       margin: 0px !important;
       padding: 0px !important;
     }
-    .wine-heading {
+    .offer-heading {
       float: left !important;
       display: flex;
       font-weight: 800 !important;
     }
-    .wine-item {
+    .offer-item {
       float: left !important;
       display: flex;
       margin-bottom: 10px !important;
     }
-    .wine-heading:hover {
+    .offer-heading:hover {
       text-decoration: underline;
       cursor: pointer;
     }
-    .wine-item:hover {
+    .offer-item:hover {
       text-decoration: underline;
       cursor: pointer;
     }
@@ -75,14 +73,14 @@
   display: block;
 }
 
-.browse-wines {
+.browse-offers {
   font-size: 13px;
   float: left;
   margin-left: 20px;
   margin-bottom: 10px;
 }
 
-.browse-wines:hover {
+.browse-offers:hover {
   text-decoration: underline;
   cursor: pointer;
   color: rgb(186, 22, 40) !important;

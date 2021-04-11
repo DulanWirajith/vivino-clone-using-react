@@ -10,7 +10,7 @@
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
-    // font-weight: bold;
+    // // // // font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -25,7 +25,7 @@
   .dropdown-custom-title:hover {
     text-decoration: underline;
   }
-  .wine-img {
+  .grapes-img {
     display: inline-block;
     float: left;
     // margin-top: 8px;
@@ -42,7 +42,7 @@
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 100;
 
-    .wine-raw {
+    .grapes-raw {
       margin: 20px 10px 20px 10px;
       // border: 1px solid black;
     }
@@ -50,21 +50,21 @@
       margin: 0px !important;
       padding: 0px !important;
     }
-    .wine-heading {
+    .grapes-heading {
       float: left !important;
       display: flex;
       font-weight: 800 !important;
     }
-    .wine-item {
+    .grapes-item {
       float: left !important;
       display: flex;
       margin-bottom: 10px !important;
     }
-    .wine-heading:hover {
+    .grapes-heading:hover {
       text-decoration: underline;
       cursor: pointer;
     }
-    .wine-item:hover {
+    .grapes-item:hover {
       text-decoration: underline;
       cursor: pointer;
     }
@@ -75,14 +75,14 @@
   display: block;
 }
 
-.browse-wines {
+.browse-grapess {
   font-size: 13px;
   float: left;
   margin-left: 20px;
   margin-bottom: 10px;
 }
 
-.browse-wines:hover {
+.browse-grapess:hover {
   text-decoration: underline;
   cursor: pointer;
   color: rgb(186, 22, 40) !important;

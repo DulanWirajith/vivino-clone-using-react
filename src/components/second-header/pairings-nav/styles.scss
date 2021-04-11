@@ -18,14 +18,13 @@
     text-align: left;
     color: #1d1d1d;
     margin-bottom: 20px;
-
     // border: 1px solid green;
   }
 
   .dropdown-custom-title:hover {
     text-decoration: underline;
   }
-  .wine-img {
+  .pairing-img {
     display: inline-block;
     float: left;
     // margin-top: 8px;
@@ -34,15 +33,24 @@
     height: 24px;
   }
 
+  .content-one-img {
+    display: inline-block;
+    float: left;
+    // margin-top: 8px;
+    border-radius: 2px;
+    padding-right: 10px;
+    height: 18px;
+  }
+
   .dropdown-custom-content {
-    // display: none;
+    display: none;
     width:820px;
     position: absolute;
     background-color: white;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 100;
 
-    .wine-raw {
+    .pairing-raw {
       margin: 20px 10px 20px 10px;
       // border: 1px solid black;
     }
@@ -50,21 +58,21 @@
       margin: 0px !important;
       padding: 0px !important;
     }
-    .wine-heading {
+    .pairing-heading {
       float: left !important;
       display: flex;
       font-weight: 800 !important;
     }
-    .wine-item {
+    .pairing-item {
       float: left !important;
       display: flex;
       margin-bottom: 10px !important;
     }
-    .wine-heading:hover {
+    .pairing-heading:hover {
       text-decoration: underline;
       cursor: pointer;
     }
-    .wine-item:hover {
+    .pairing-item:hover {
       text-decoration: underline;
       cursor: pointer;
     }
@@ -75,14 +83,14 @@
   display: block;
 }
 
-.browse-wines {
+.browse-pairings {
   font-size: 13px;
   float: left;
   margin-left: 20px;
   margin-bottom: 10px;
 }
 
-.browse-wines:hover {
+.browse-pairings:hover {
   text-decoration: underline;
   cursor: pointer;
   color: rgb(186, 22, 40) !important;
