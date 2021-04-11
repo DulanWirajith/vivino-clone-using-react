@@ -1,5 +1,5 @@
 import React from "react";
-import SelectedPillComponent from "../selected-pill/SelectedPillComponent";
+import PillComponent from "../pill/PillComponent";
 import { Dropdown } from "react-bootstrap";
 
 import "./styles.scss";
@@ -13,7 +13,7 @@ function FiltersShowingComponent() {
 
       <div className="row ">
         <div className="col-md-9 pill-showing-div ">
-          <SelectedPillComponent />
+          <PillComponent pillName="selected-with-icon" textValue="Veal" />
         </div>
         <div className="col-md-3 ">
           <Dropdown>

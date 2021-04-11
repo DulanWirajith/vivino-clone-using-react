@@ -1,0 +1,129 @@
+.pill-div-selected-icon {
+  cursor: pointer;
+  // display: flex;
+  display: inline-flex !important;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  min-width: 70px;
+  width: max-content;
+  padding: 6px;
+  border: 1px solid #ba1628;
+  border-radius: 2.5em;
+  background: #ba1628;
+  color: #fff;
+  font-size: 13px !important;
+  height: 35px !important;
+}
+
+.pill-icon-selected-icon {
+  color: #fff;
+  font-weight: 400;
+  margin-right: 8px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  height: 16px;
+}
+
+.pill-text-selected-icon {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+.pill-div-selected-without-icon {
+  cursor: pointer;
+  // display: flex;
+  display: inline-flex !important;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: center;
+  min-width: 100%;
+  width: 100%;
+  //   width: max-content;
+  padding: 6px;
+  border: 1px solid #ba1628;
+  border-radius: 2.5em;
+  background: #ba1628;
+  color: #fff;
+  font-size: 13px !important;
+  height: 35px !important;
+}
+
+.pill-icon-selected-without-icon {
+  // color: #fff;
+  // font-weight: 400;
+  // margin-right: 8px;
+  // font-size: 18px;
+  // line-height: 20px;
+  // font-weight: 400;
+  // height: 16px;
+  display: none;
+}
+
+.pill-text-selected-without-icon {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+.pill-div-unselected-without-icon {
+  cursor: pointer;
+  // display: flex;
+  display: inline-flex !important;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  min-width: 70px;
+  width: max-content;
+  padding: 6px;
+  border: 1px solid #ba1628;
+  border-radius: 2.5em;
+  // background: #ba1628;
+  color: #fff;
+  font-size: 13px !important;
+  height: 35px !important;
+}
+
+.pill-icon-unselected-without-icon {
+  display: none;
+}
+
+.pill-text-unselected-without-icon {
+  color: #ba1628;
+  font-size: 15px;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+.pill-div-unselected-without-icon-full-width {
+  cursor: pointer;
+  // display: flex;
+  display: inline-flex !important;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  min-width: 100%;
+  width: max-content;
+  padding: 6px;
+  border: 1px solid #ba1628;
+  border-radius: 2.5em;
+  // background: #ba1628;
+  color: #fff;
+  font-size: 13px !important;
+  height: 35px !important;
+}
+
+.pill-icon-unselected-without-icon-full-width {
+  display: none;
+}
+
+.pill-text-unselected-without-icon-full-width {
+  color: #ba1628;
+  font-size: 15px;
+  font-weight: 400;
+  overflow: hidden;
+}

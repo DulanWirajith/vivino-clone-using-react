@@ -1,4 +1,5 @@
 import React from "react";
+import FilterByWineTypeComponent from "../components/filter-by-wine-type/FilterByWineTypeComponent";
 import FiltersShowingComponent from "../components/filters-showing/FiltersShowingComponent";
 import HeaderComponent from "../components/header/HeaderComponent";
 import SecondHeader from "../components/second-header/SecondHeader";
@@ -18,6 +19,14 @@ function VivinoPage(props) {
         </h2>
 
         <FiltersShowingComponent></FiltersShowingComponent>
+
+        <div className="break"></div>
+        <div className="row ">
+          <div className="col-md-4">
+            <FilterByWineTypeComponent></FilterByWineTypeComponent>
+          </div>
+          <div className="col-md-8"></div>
+        </div>
       </div>
     </div>
   );
