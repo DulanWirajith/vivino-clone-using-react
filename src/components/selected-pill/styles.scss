@@ -1,0 +1,33 @@
+.pill-div {
+  cursor: pointer;
+  // display: flex;
+  display: inline-flex !important;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  min-width: 70px;
+  width: max-content;
+  padding: 8px;
+  border: 1px solid #ba1628;
+  border-radius: 2.5em;
+  background: #ba1628;
+  color: #fff;
+  font-size: 13px !important;
+}
+
+.pill-icon {
+  color: #fff;
+  font-weight: 400;
+  margin-right: 8px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  height: 16px;
+}
+
+.pill-text {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  overflow: hidden;
+}
