@@ -92,6 +92,10 @@ function WinesNavComponent(props) {
           </div>
 
           <BottomLineComponent></BottomLineComponent>
+
+          <div className="browse-wines" >
+            Browse all wines
+          </div>
         </div>
       </div>
     </div>

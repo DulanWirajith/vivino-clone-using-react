@@ -4,7 +4,7 @@
   // border: 1px solid black;
 }
 
-.wine-line-img {
+.wine-line-img-1 {
   //   float: left !important;
   //   display: flex;
   height: 70px;
@@ -18,12 +18,31 @@
   transition: all 1s ease;
 }
 
-.wine-line-img:hover {
+.wine-line-img-1:hover {
   transform: scale(1.05);
   cursor: pointer;
   max-height: 70px !important;
 }
 
+.wine-line-img-2 {
+    //   float: left !important;
+    //   display: flex;
+    height: 70px;
+    //   border: 1px solid black;
+    background-image: url(./../../../assests/img/wines-row-img-2.webp);
+    background-repeat: no-repeat;
+    background-color: rgba(165, 42, 42, 0.07);
+    padding: 20px !important;
+    transition: transform 0.2s;
+    max-width: 100%;
+    transition: all 1s ease;
+  }
+  
+  .wine-line-img-2:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    max-height: 70px !important;
+  }
 .wine-line-content {
   height: 70px;
   //   border: 1px solid green;

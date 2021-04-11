@@ -22,7 +22,7 @@
     // border: 1px solid green;
   }
 
-  .dropdown-custom-title:hover{
+  .dropdown-custom-title:hover {
     text-decoration: underline;
   }
   .wine-img {
@@ -73,4 +73,17 @@
 
 .dropdown-custom:hover .dropdown-custom-content {
   display: block;
+}
+
+.browse-wines {
+  font-size: 13px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.browse-wines:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(186, 22, 40) !important;
 }
