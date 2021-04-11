@@ -3,6 +3,7 @@ import './App.css';
 import { Provider } from "react-redux";
 import store from "./redux/store";
 import HeaderComponent from './components/header/HeaderComponent';
+import VivinoPage from './pages/VivinoPage';
 
 
 function App() {
@@ -24,8 +25,8 @@ function App() {
         </a>
         
       </header> */}
-        <HeaderComponent></HeaderComponent>
-
+        {/* <HeaderComponent></HeaderComponent> */}
+        <VivinoPage></VivinoPage>
     </div>
     </Provider>
 
