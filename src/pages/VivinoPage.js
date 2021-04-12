@@ -1,11 +1,59 @@
 import React from "react";
-import FilterByWineTypeComponent from "../components/filter-by-wine-type/FilterByWineTypeComponent";
-import FiltersShowingComponent from "../components/filters-showing/FiltersShowingComponent";
+import FilterByWineTypeComponent from "../components/body-content-left-side/filter-by-wine-type/FilterByWineTypeComponent";
+import FiltersShowingComponent from "../components/body-content-left-side/filters-showing/FiltersShowingComponent";
 import HeaderComponent from "../components/header/HeaderComponent";
 import SecondHeader from "../components/second-header/SecondHeader";
+import { RangeSlider } from "@appbaseio/reactivesearch";
+import Slider from "react-rangeslider";
 import "./styles.scss";
+import FilterByPriceRangeComponent from "../components/body-content-left-side/filter-by-price-range/FilterByPriceRangeComponent";
+import FilterByStarRatingComponent from "../components/body-content-left-side/filter-by-star-rating/FilterByStarRatingComponent";
+import FilterWithSearch from "../components/body-content-left-side/filter-with-search/FilterWithSearch";
+import OneItemShowDivComponent from "../components/body-content-right-side/one-item-show-div/OneItemShowDivComponent";
 
 function VivinoPage(props) {
+  var grapesArray = [
+    "Cabernet Franc",
+    "Cabernet Sauvignon",
+    "Chardonnay",
+    "Grenache",
+    "Malbec",
+    "Merlot",
+    "Pinot Noir",
+    "Riesling",
+    "Sauvignon Blanc",
+    "Shiraz/Syrah",
+  ];
+
+  var regionsArray = [
+    "Bordeaux",
+    "Bourgogne",
+    "Napa Valley",
+    "Piemonte",
+    "Rhone Valley",
+    "Toscana",
+  ];
+
+  var wineStylesArray = [
+    "Argentinian Malbec",
+    "Californian Cabernet Sauvignon",
+    "Central Italy Red",
+    "Spanish Red",
+    "Spanish Rioja Red",
+  ];
+
+  var countriesArray = [
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Chile",
+    "France",
+    "Germany",
+    "Italy",
+    "Portugal",
+    "Spain",
+    "United States",
+  ];
   return (
     <div>
       <div className="header">
@@ -24,9 +72,61 @@ function VivinoPage(props) {
         <div className="row ">
           <div className="col-md-4">
             <FilterByWineTypeComponent></FilterByWineTypeComponent>
+            <div className="break"></div>
+            <div className="break"></div>
+            <div className="break"></div>
+            <FilterByPriceRangeComponent></FilterByPriceRangeComponent>
+            <div className="break"></div>
+            <div className="break"></div>
+            <div className="break"></div>
+            <FilterByStarRatingComponent></FilterByStarRatingComponent>
+            <div className="break"></div>
+            <div className="break"></div>
+            <div className="break"></div>
+            <FilterWithSearch
+              topic="Grapes"
+              searchText="Search grapes"
+              filterElements={grapesArray}
+              pillName="unselected-without-icon"
+            ></FilterWithSearch>
+            <div className="break"></div>
+            <div className="break"></div>
+            <div className="break"></div>
+            <FilterWithSearch
+              topic="Regions"
+              searchText="Search regions"
+              filterElements={regionsArray}
+              pillName="unselected-without-icon"
+            ></FilterWithSearch>
+            <div className="break"></div>
+            <div className="break"></div>
+            <div className="break"></div>
+            <FilterWithSearch
+              topic="Countries"
+              searchText="Search countries"
+              filterElements={countriesArray}
+              pillName="unselected-with-icon"
+            ></FilterWithSearch>
+            <div className="break"></div>
+            <div className="break"></div>
+            <div className="break"></div>
+            <FilterWithSearch
+              topic="Wine styles"
+              searchText="Search wine styles"
+              filterElements={wineStylesArray}
+              pillName="unselected-without-icon"
+            ></FilterWithSearch>
           </div>
-          <div className="col-md-8"></div>
+
+          <div className="col-md-8">
+            <OneItemShowDivComponent></OneItemShowDivComponent>
+          </div>
         </div>
+
+        {/* <div className="row ">
+          <div className="col-md-4"></div>
+          <div className="col-md-8"></div>
+        </div> */}
       </div>
     </div>
   );

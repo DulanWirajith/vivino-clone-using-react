@@ -33,6 +33,42 @@
   overflow: hidden;
 }
 
+.pill-div-unselected-icon {
+  cursor: pointer;
+  // display: flex;
+  display: inline-flex !important;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  min-width: 70px;
+  width: max-content;
+  padding: 6px;
+  margin: 2px;
+  border: 1px solid #ba1628;
+  border-radius: 2.5em;
+  // background: #ba1628;
+  color: #fff;
+  font-size: 13px !important;
+  height: 35px !important;
+}
+
+.pill-icon-unselected-icon {
+  color: #ba1628;
+  font-weight: 400;
+  margin-right: 8px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  height: 16px;
+}
+
+.pill-text-unselected-icon {
+  color: #ba1628;
+  font-size: 15px;
+  font-weight: 400;
+  overflow: hidden;
+}
+
 .pill-div-selected-without-icon {
   cursor: pointer;
   // display: flex;
@@ -80,6 +116,7 @@
   min-width: 70px;
   width: max-content;
   padding: 6px;
+  margin: 2px;
   border: 1px solid #ba1628;
   border-radius: 2.5em;
   // background: #ba1628;
@@ -126,4 +163,15 @@
   font-size: 15px;
   font-weight: 400;
   overflow: hidden;
+}
+
+.flag-img {
+  background-image: url(./../../../assests/img/search-icon.svg);
+  margin-right: 8px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  border: 2px solid green;
+  width: 20px;
+  height: 20px;
 }

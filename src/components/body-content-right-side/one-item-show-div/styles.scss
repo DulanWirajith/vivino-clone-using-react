@@ -1,0 +1,129 @@
+.one-item-main-div {
+  margin-left: 15px !important;
+  margin-right: 5px !important;
+  padding: 10px;
+  margin-bottom: 16px !important;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.06);
+  background: #fff;
+  border-radius: 4px;
+}
+
+.image-div {
+  height: 210px;
+  width: 20%;
+  background-color: rgb(200, 209, 206);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.image-div2 {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  background-image: url(./../../../assests/img/bottle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.content-div {
+  width: 40%;
+  background-color: rgba(128, 128, 128, 0.042);
+}
+
+.reviews-div {
+  width: 40%;
+  background-color: rgb(219, 223, 150);
+}
+
+.bottle-basic-details {
+  margin-left: 15px;
+  margin-top: 15px;
+
+  .brand-title {
+    box-sizing: inherit;
+    display: block;
+    text-align: left;
+    color: #1d1d1d;
+    font-size: 14px;
+    line-height: normal;
+    font-weight: 400;
+  }
+  :hover {
+    color: #a11122;
+    cursor: pointer;
+  }
+
+  .bottle-name {
+    color: #484848;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 400;
+    margin-bottom: 4px;
+  }
+  :hover {
+    color: #a11122;
+    cursor: pointer;
+  }
+}
+
+.bottle-location {
+  display: flex;
+  margin-bottom: 8px;
+  font-size: 13px;
+  line-height: normal;
+  font-weight: 400;
+  color: #1d1d1d;
+
+  .flag-icon {
+    height: 15px;
+    margin-right: 12px;
+  }
+
+  .country-name {
+    margin-right: 10px;
+    color: #1d1d1d;
+  }
+  :hover {
+    color: #a11122;
+    cursor: pointer;
+  }
+
+  .region-name {
+    margin-left: 10px;
+    color: #1d1d1d;
+  }
+  :hover {
+    color: #a11122;
+    cursor: pointer;
+  }
+}
+
+.bottle-rating {
+  margin-top: 20px;
+
+  .rating-view-div {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1;
+  }
+  .bottle-rating-value {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+    margin-right: 8px;
+  }
+  :hover {
+    color: #1d1d1d !important;
+  }
+
+  .reviews-count {
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
