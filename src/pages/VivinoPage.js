@@ -67,6 +67,130 @@ function VivinoPage(props) {
     { valueOne: "Spicy food", valueTwo: "./images/spicy-icon.svg" },
     { valueOne: "Sweet desserts", valueTwo: "./images/sweet-dessert-icon.svg" },
   ];
+
+  var bodyRowContent = [
+    {
+      brand_title: "Tenuta Ulisse",
+      bottle_name: "Guerriero della Terra 2017",
+      bottle_img: "./images/bottle-img-one.png",
+      country_name: "Italy",
+      region_name: "Marche",
+      bottle_rating_value: "4.5",
+      reviews_count: "1242 ratings",
+      price: "$85",
+      user_rating_number: "4.5",
+      review_message:
+        "A ruby in colour. Red currant on the nose with spice. Very fruit forward with blackcurrant on the palate with vanilla and clove.",
+      review_person_name: "Alicia B (274 ratings)",
+      review_date: "Dec 19, 2020",
+    },
+
+    {
+      brand_title: "Muga",
+      bottle_name: "Prado Enea Gran Reserva 2014",
+      bottle_img: "./images/bottle-img-two.png",
+      country_name: "Spain",
+      region_name: "Rioja",
+      bottle_rating_value: "4.7",
+      reviews_count: "93 ratings",
+      price: "View shops",
+      user_rating_number: "",
+      review_message: "",
+      review_person_name: "",
+      review_date: "",
+    },
+    {
+      brand_title: "Losada",
+      bottle_name: "La Bienquerida 2018",
+      bottle_img: "./images/bottle-img-three.png",
+      country_name: "Spain",
+      region_name: "Bierzo",
+      bottle_rating_value: "4.7",
+      reviews_count: "25 ratings",
+      price: "View shops",
+      user_rating_number: "4.5",
+      review_message:
+        "Fandabby magic! This youngster will grow into something incredible",
+      review_person_name: "Woody (397 ratings)",
+      review_date: "Mar 7, 2021",
+    },
+
+    {
+      brand_title: "Herdade da Maroteira",
+      bottle_name: "Cem Reis Reserva Syrah 2018",
+      bottle_img: "./images/bottle-img-four.png",
+      country_name: "Portugal",
+      region_name: "Alentejano",
+      bottle_rating_value: "4.6",
+      reviews_count: "397 ratings",
+      price: "View shops",
+      user_rating_number: "",
+      review_message: "",
+      review_person_name: "",
+      review_date: "",
+    },
+    {
+      brand_title: "Tenuta Ulisse",
+      bottle_name: "Guerriero della Terra 2017",
+      bottle_img: "./images/bottle-img-one.png",
+      country_name: "Italy",
+      region_name: "Marche",
+      bottle_rating_value: "4.5",
+      reviews_count: "1242 ratings",
+      price: "$85",
+      user_rating_number: "4.5",
+      review_message:
+        "A ruby in colour. Red currant on the nose with spice. Very fruit forward with blackcurrant on the palate with vanilla and clove.",
+      review_person_name: "Alicia B (274 ratings)",
+      review_date: "Dec 19, 2020",
+    },
+
+    {
+      brand_title: "Muga",
+      bottle_name: "Prado Enea Gran Reserva 2014",
+      bottle_img: "./images/bottle-img-two.png",
+      country_name: "Spain",
+      region_name: "Rioja",
+      bottle_rating_value: "4.7",
+      reviews_count: "93 ratings",
+      price: "View shops",
+      user_rating_number: "",
+      review_message: "",
+      review_person_name: "",
+      review_date: "",
+    },
+    {
+      brand_title: "Tenuta Ulisse",
+      bottle_name: "Guerriero della Terra 2017",
+      bottle_img: "./images/bottle-img-one.png",
+      country_name: "Italy",
+      region_name: "Marche",
+      bottle_rating_value: "4.5",
+      reviews_count: "1242 ratings",
+      price: "$85",
+      user_rating_number: "4.5",
+      review_message:
+        "A ruby in colour. Red currant on the nose with spice. Very fruit forward with blackcurrant on the palate with vanilla and clove.",
+      review_person_name: "Alicia B (274 ratings)",
+      review_date: "Dec 19, 2020",
+    },
+
+    {
+      brand_title: "Herdade da Maroteira",
+      bottle_name: "Cem Reis Reserva Syrah 2018",
+      bottle_img: "./images/bottle-img-four.png",
+      country_name: "Portugal",
+      region_name: "Alentejano",
+      bottle_rating_value: "4.6",
+      reviews_count: "397 ratings",
+      price: "View shops",
+      user_rating_number: "",
+      review_message: "",
+      review_person_name: "",
+      review_date: "",
+    },
+  ];
+
   return (
     <div>
       <div className="header">
@@ -141,7 +265,29 @@ function VivinoPage(props) {
           </div>
 
           <div className="col-md-8">
-            <OneItemShowDivComponent></OneItemShowDivComponent>
+            {/* {bodyRowContent.map((oneRow) => {
+              <OneItemShowDivComponent brand_title="Tenuta Ulisse"></OneItemShowDivComponent>;
+            })} */}
+
+            {bodyRowContent.map((filterElement) => (
+              <OneItemShowDivComponent
+                brand_title={filterElement.brand_title}
+                bottle_name={filterElement.bottle_name}
+                bottle_img={filterElement.bottle_img}
+                country_name={filterElement.country_name}
+                region_name={filterElement.region_name}
+                bottle_rating_value={filterElement.bottle_rating_value}
+                reviews_count={filterElement.reviews_count}
+                price={filterElement.price}
+                user_rating_number={filterElement.user_rating_number}
+                review_message={filterElement.review_message}
+                review_person_name={filterElement.review_person_name}
+                review_date={filterElement.review_date}
+              />
+            ))}
+            {/* <OneItemShowDivComponent brand_title="Guerrieri"></OneItemShowDivComponent>
+            <OneItemShowDivComponent brand_title="Tenuta Ulisse"></OneItemShowDivComponent>
+            <OneItemShowDivComponent brand_title="Tenuta Ulisse"></OneItemShowDivComponent> */}
           </div>
         </div>
 

@@ -20,12 +20,16 @@
   height: 100%;
   width: 100%;
   border-radius: 8px;
-  background-image: url(./../../../assests/img/bottle.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  display: flex;
+  // background-image: url(./../../../assests/img/bottle.png);
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: contain;
 }
-
+.bottle-img {
+  height: 100%;
+  margin: auto;
+}
 .content-div {
   width: 40%;
   background-color: rgba(128, 128, 128, 0.042);
@@ -226,4 +230,29 @@
   color: #a8a5a3;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.reviews-div-none {
+  display: none;
+}
+
+.view-shops-button {
+  border-radius: 80px !important;
+  border: 1 !important;
+  color: #8e041a !important;
+  background-color: transparent !important;
+  border-color: #8e041a !important;
+  float: right;
+  margin-right: 20px;
+  margin-top: 15px;
+  height: 48px;
+  min-width: 128px;
+}
+.view-shops-button:hover {
+  // border: none;
+  background-color: transparent !important;
+  border: 1 !important;
+  color: #8e041a !important;
+  background-color: transparent !important;
+  border-color: #8e041a !important;
 }
