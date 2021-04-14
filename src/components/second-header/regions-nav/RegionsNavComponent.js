@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.scss";
-import wineImg from "./../../../assests/img/wine-icon.svg";
+import wineImg from "./../../../assests/img/regions-icon.svg";
 import BottomLineComponent from "../bottom-line/BottomLineComponent";
 
 function RegionsNavComponent(props) {
@@ -9,7 +9,7 @@ function RegionsNavComponent(props) {
       <div className="dropdown-custom">
         {/* <input id="dropcheck" className="dropcheck" type="checkbox" /> */}
         <img src={wineImg} className="wine-img" />
-        <div className="dropdown-custom-title">Wines</div>
+        <div className="dropdown-custom-title">Regions</div>
         <div className="dropdown-custom-content">
           <div className="row wine-raw">
             <div className="col-md-3 remove-margin">
@@ -59,14 +59,6 @@ function RegionsNavComponent(props) {
             <div className="col-md-3 remove-margin">
               <div className="row">
                 <div className="col-md-12">
-                  
-
-
-
-
-
-
-
                   <div className="col-md-12 wine-heading">
                     <a>
                       <h5>Spain</h5>

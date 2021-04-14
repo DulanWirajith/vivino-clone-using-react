@@ -7,13 +7,13 @@ function SecondFooterComponent() {
       <div className="row">
         <div className="second-footer-main-div">
           <div className="row">
-            <div className="col-md-3 border">
+            <div className="col-md-3">
               <div class="payment-options-left">
                 <img src="./images/app-store.svg" className="image-show" />
                 <img src="./images/google-play.svg" className="image-show" />
               </div>
             </div>
-            <div className="col-md-9 border">
+            <div className="col-md-9">
               <div class="payment-options-right">
                 <div>
                   <img src="./images/visa-icon.svg" className="image-show" />

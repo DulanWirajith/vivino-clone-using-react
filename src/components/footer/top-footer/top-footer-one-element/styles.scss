@@ -1,9 +1,31 @@
-.footer-one-element-text {
-  cursor: default;
-  color: #1e1e1e;
-  box-sizing: inherit;
-  font-size: 16px;
-  font-weight: 400;
-  padding-left: 0px !important;
-  margin-right: 10px;
+@media only screen and (min-width: 992px) {
+  .footer-one-element-text {
+    cursor: default;
+    color: #1e1e1e;
+    box-sizing: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 0px !important;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-one-element-text {
+    cursor: default;
+    color: #1e1e1e;
+    box-sizing: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 0px !important;
+    // margin-right: 10px;
+    top: -40px;
+    left: 80px;
+    position: absolute;
+  }
+  .one-mobile-view {
+    position: relative;
+    width: 100%;
+    flex-grow: 1;
+  }
 }

@@ -1,4 +1,10 @@
-.second-header{
-    margin-left: 0px !important;
-    margin-top: 10px !important;
+.second-header {
+  margin-left: 0px !important;
+  margin-top: 10px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .second-header {
+    display: none !important;
+  }
 }

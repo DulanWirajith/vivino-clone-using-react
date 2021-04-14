@@ -20,7 +20,6 @@ import richFish from "./../../../assests/img/rich-fish-icon.svg";
 import shellFish from "./../../../assests/img/sea-shell-icon.svg";
 import vegetarian from "./../../../assests/img/vegetarian-icon.svg";
 
-
 function PairingsNavComponent(props) {
   return (
     <div>
@@ -67,7 +66,7 @@ function PairingsNavComponent(props) {
             <div className="col-md-4 remove-margin">
               <div className="row">
                 <div className="col-md-12">
-                <div className="col-md-12  pairing-item">
+                  <div className="col-md-12  pairing-item">
                     <img src={meat} className="content-one-img" />
                     Cured meat
                   </div>
@@ -98,7 +97,7 @@ function PairingsNavComponent(props) {
             <div className="col-md-4 remove-margin">
               <div className="row">
                 <div className="col-md-12">
-                <div className="col-md-12  pairing-item">
+                  <div className="col-md-12  pairing-item">
                     <img src={aperitif} className="content-one-img" />
                     Aperitif
                   </div>
