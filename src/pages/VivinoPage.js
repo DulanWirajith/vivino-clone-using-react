@@ -15,7 +15,7 @@ import SecondFooterComponent from "../components/footer/second-footer/SecondFoot
 import wineImg from "./../assests/img/wine-icon.svg";
 import offersImg from "./../assests/img/offer-icon.svg";
 import SecondNavComponent from "../components/header/mobile/second-nav/SecondNavComponent";
-import MobileFilterAndSortComponent from "../components/header/mobile/mobile-filter-and-sort-button/MobileFilterAndSortComponent";
+import MobileFilterAndSortComponent from "../components/body-content-right-side/mobile/mobile-filter-and-sort-button/MobileFilterAndSortComponent";
 
 function VivinoPage(props) {
   var grapesArray = [
@@ -211,7 +211,6 @@ function VivinoPage(props) {
           </button>
         </div> */}
         <SecondNavComponent></SecondNavComponent>
-        <MobileFilterAndSortComponent></MobileFilterAndSortComponent>
       </div>
 
       <div className="body-content">
@@ -220,10 +219,11 @@ function VivinoPage(props) {
         </h2>
 
         <FiltersShowingComponent></FiltersShowingComponent>
+        <MobileFilterAndSortComponent></MobileFilterAndSortComponent>
 
         <div className="break"></div>
         <div className="row ">
-          <div className="col-md-4">
+          <div className="col-md-4 mobile-display-none">
             <FilterByWineTypeComponent></FilterByWineTypeComponent>
             <div className="break"></div>
             <div className="break"></div>

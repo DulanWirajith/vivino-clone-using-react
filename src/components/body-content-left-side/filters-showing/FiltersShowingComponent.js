@@ -15,7 +15,7 @@ function FiltersShowingComponent() {
         <div className="col-md-9 pill-showing-div ">
           <PillComponent pillName="selected-with-icon" textValue="Veal" />
         </div>
-        <div className="col-md-3 ">
+        <div className="col-md-3 dropdown-show">
           <Dropdown>
             <Dropdown.Toggle id="dropdown-basic" className="filter-dropdown">
               Highest User Rating

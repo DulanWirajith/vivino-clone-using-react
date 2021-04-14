@@ -1,23 +1,58 @@
-.border {
-  border: 1px solid green;
+@media only screen and (min-width: 992px) {
+  .border {
+    border: 1px solid green;
+  }
+
+  .wine-types {
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 600;
+  }
+
+  .select-multiple {
+    font-size: 13px;
+    line-height: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .wine-heading-row {
+    margin-bottom: 30px;
+  }
+  .break {
+    height: 18px !important;
+  }
 }
 
-.wine-types {
-  font-size: 22px;
-  line-height: normal;
-  font-weight: 600;
-}
+@media only screen and (max-width: 600px) {
+  .border {
+    border: 1px solid green;
+  }
 
-.select-multiple {
-  font-size: 13px;
-  line-height: normal;
-  font-weight: 400;
-  text-align: center;
-}
+  .wine-types {
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 600;
+  }
 
-.wine-heading-row {
-  margin-bottom: 30px;
-}
-.break {
-  height: 18px !important;
+  .select-multiple {
+    font-size: 13px;
+    line-height: normal;
+    font-weight: 400;
+    text-align: right;
+    position: absolute;
+    top: -20px;
+    // right: 11px !important;
+  }
+
+  .wine-heading-row {
+    margin-bottom: 30px;
+  }
+  .break {
+    height: 18px !important;
+  }
+
+  .wine-type-mobile-div {
+    width: 30% !important;
+  }
 }

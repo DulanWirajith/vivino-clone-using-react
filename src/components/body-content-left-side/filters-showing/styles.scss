@@ -1,49 +1,65 @@
-.show-filters {
-  cursor: default;
-  color: #111;
-  background-repeat: no-repeat;
-  box-sizing: inherit;
-  font-size: 20px !important;
-  line-height: normal;
-  font-weight: 400;
-  margin-top: 20px;
+@media only screen and (min-width: 992px) {
+  .show-filters {
+    cursor: default;
+    color: #111;
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+    font-size: 20px !important;
+    line-height: normal;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+
+  .pill-showing-div {
+    display: inline;
+    margin-top: 10px;
+  }
+
+  .filter-dropdown {
+    background-color: transparent !important;
+    border: 1px solid #eae0da !important;
+    cursor: pointer;
+    float: right;
+    padding: 10px 10px !important;
+    border-radius: 120px !important;
+    color: #484848 !important;
+    justify-content: space-between;
+    position: relative !important;
+    line-height: 1.5 !important;
+  }
+
+  .asdf {
+    border: 1px solid black;
+  }
+
+  .dropdownmenu-filter {
+    margin-top: 8px !important;
+    border-radius: 12px !important;
+  }
+
+  .dropdownitem-filter {
+    font-size: 16px !important;
+    // margin-top: 10px !important;
+  }
+
+  .dropdownitem-filter:hover {
+    background-color: #f7f3f0 !important;
+    color: #1e1e1e !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+  }
 }
 
-.pill-showing-div {
-  display: inline;
-  margin-top: 10px;
-}
+@media only screen and (max-width: 600px) {
+  .show-filters {
+    display: none;
+  }
 
-.filter-dropdown {
-  background-color: transparent !important;
-  border: 1px solid #eae0da !important;
-  cursor: pointer;
-  float: right;
-  padding: 10px 10px !important;
-  border-radius: 120px !important;
-  color: #484848 !important;
-  justify-content: space-between;
-  position: relative !important;
-  line-height: 1.5 !important;
-}
+  .pill-showing-div {
+    display: none;
+  }
 
-.asdf {
-  border: 1px solid black;
-}
-
-.dropdownmenu-filter {
-  margin-top: 8px !important;
-  border-radius: 12px !important;
-}
-
-.dropdownitem-filter {
-  font-size: 16px !important;
-  // margin-top: 10px !important;
-}
-
-.dropdownitem-filter:hover {
-  background-color: #f7f3f0 !important;
-  color: #1e1e1e !important;
-  text-decoration: none !important;
-  font-size: 16px !important;
+  .dropdown-show {
+    display: none;
+  }
 }
