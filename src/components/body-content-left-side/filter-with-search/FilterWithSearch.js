@@ -6,6 +6,11 @@ import searchImage from "./../../../assests/img/search-icon.svg";
 
 function FilterWithSearch(props) {
   const filterElements = props.filterElements;
+  const iconList = props.iconList;
+
+  const pill = props.pillName;
+  console.log(pill);
+
   return (
     <div>
       <div className="row wine-heading-row">
@@ -16,13 +21,28 @@ function FilterWithSearch(props) {
       ></SearchBarWithoutBorderComponent>
 
       <div className="filterPills">
-        {filterElements.map((filterElement) => (
+        {/* {filterElements.map((filterElement) => (
           <PillComponent
             pillName={props.pillName}
             textValue={filterElement}
-            photo_icon={searchImage}
+            photo_icon={filterElement}
           />
-        ))}
+        ))} */}
+        {pill === "unselected-with-another-icon"
+          ? filterElements.map((filterElement) => (
+              <PillComponent
+                pillName={props.pillName}
+                textValue={filterElement.valueOne}
+                photo_icon={filterElement.valueTwo}
+              />
+            ))
+          : filterElements.map((filterElement) => (
+              <PillComponent
+                pillName={props.pillName}
+                textValue={filterElement}
+                photo_icon={filterElement}
+              />
+            ))}
       </div>
     </div>
   );

@@ -165,13 +165,27 @@
   overflow: hidden;
 }
 
-.flag-img {
-  background-image: url(./../../../assests/img/search-icon.svg);
-  margin-right: 8px;
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: 400;
-  border: 2px solid green;
-  width: 20px;
-  height: 20px;
+// .flag-img {
+//   background-image: url(./../../../assests/img/search-icon.svg);
+//   margin-right: 8px;
+//   font-size: 18px;
+//   line-height: 20px;
+//   font-weight: 400;
+//   border: 2px solid green;
+//   width: 20px;
+//   height: 20px;
+// }
+
+.pill-flag-icon-display {
+  height: 14px;
+  margin-right: 12px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.pill-flag-icon-not-display {
+  // height: 14px;
+  // margin-right: 12px;
+  // margin-top: auto;
+  display: none;
 }

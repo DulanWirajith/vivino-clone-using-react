@@ -4,6 +4,9 @@ function PillComponent(props) {
   let pillDiv = "pill-div-selected-icon";
   let pillIcon = "pill-icon-selected-icon";
   let pillText = "pill-text-selected-icon";
+  let pillFlagIcon = "pill-flag-icon-not-display";
+  let imgSrc = "./images/australia-icon.svg";
+
   var urlAus =
     "https://www.pngfind.com/pngs/m/224-2244500_australia-round-flag-australia-flag-circle-png-transparent.png";
   // if (props.pillName) {
@@ -20,6 +23,12 @@ function PillComponent(props) {
       pillDiv = "pill-div-unselected-icon";
       pillIcon = "pill-icon-unselected-icon";
       pillText = "pill-text-unselected-icon";
+      break;
+    case "unselected-with-another-icon":
+      pillDiv = "pill-div-unselected-icon";
+      pillIcon = "pill-icon-unselected-without-icon";
+      pillText = "pill-text-unselected-icon";
+      pillFlagIcon = "pill-flag-icon-display";
       break;
     case "selected-without-icon":
       pillDiv = "pill-div-selected-without-icon";
@@ -60,6 +69,8 @@ function PillComponent(props) {
             backgroundImage: `url(${props.photo_icon})`,
           }}
         ></span> */}
+        <img src={props.photo_icon} className={pillFlagIcon} />
+
         <span className={pillText}>{props.textValue}</span>
       </div>
     </div>
