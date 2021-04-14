@@ -10,6 +10,8 @@ import FilterByPriceRangeComponent from "../components/body-content-left-side/fi
 import FilterByStarRatingComponent from "../components/body-content-left-side/filter-by-star-rating/FilterByStarRatingComponent";
 import FilterWithSearch from "../components/body-content-left-side/filter-with-search/FilterWithSearch";
 import OneItemShowDivComponent from "../components/body-content-right-side/one-item-show-div/OneItemShowDivComponent";
+import TopFooterComponent from "../components/footer/top-footer/TopFooterComponent";
+import SecondFooterComponent from "../components/footer/second-footer/SecondFooterComponent";
 
 function VivinoPage(props) {
   var grapesArray = [
@@ -43,16 +45,27 @@ function VivinoPage(props) {
   ];
 
   var countriesArray = [
-    "Argentina",
-    "Australia",
-    "Austria",
-    "Chile",
-    "France",
-    "Germany",
-    "Italy",
-    "Portugal",
-    "Spain",
-    "United States",
+    { valueOne: "Argentina", valueTwo: "./images/argentina-icon.svg" },
+    { valueOne: "Australia", valueTwo: "./images/australia-icon.svg" },
+    { valueOne: "Austria", valueTwo: "./images/austria-icon.svg" },
+    { valueOne: "Chile", valueTwo: "./images/chile-icon.svg" },
+    { valueOne: "France", valueTwo: "./images/france-icon.svg" },
+    { valueOne: "Germany", valueTwo: "./images/germany-icon.svg" },
+    { valueOne: "Italy", valueTwo: "./images/italy-icon.svg" },
+    { valueOne: "Portugal", valueTwo: "./images/portugal-icon.svg" },
+    { valueOne: "Spain", valueTwo: "./images/spain-icon.svg" },
+    { valueOne: "United States", valueTwo: "./images/united-states-icon.svg" },
+  ];
+
+  var foodPairingsArray = [
+    { valueOne: "Veal", valueTwo: "./images/beef-icon.svg" },
+    { valueOne: "Poultry", valueTwo: "./images/hen-icon.svg" },
+    {
+      valueOne: "Rich fish (salmon, tuna etc)",
+      valueTwo: "./images/rich-fish-icon.svg",
+    },
+    { valueOne: "Spicy food", valueTwo: "./images/spicy-icon.svg" },
+    { valueOne: "Sweet desserts", valueTwo: "./images/sweet-dessert-icon.svg" },
   ];
   return (
     <div>
@@ -105,7 +118,7 @@ function VivinoPage(props) {
               topic="Countries"
               searchText="Search countries"
               filterElements={countriesArray}
-              pillName="unselected-with-icon"
+              pillName="unselected-with-another-icon"
             ></FilterWithSearch>
             <div className="break"></div>
             <div className="break"></div>
@@ -116,6 +129,15 @@ function VivinoPage(props) {
               filterElements={wineStylesArray}
               pillName="unselected-without-icon"
             ></FilterWithSearch>
+            <div className="break"></div>
+            <div className="break"></div>
+            <div className="break"></div>
+            <FilterWithSearch
+              topic="Food pairings"
+              searchText="Search food pairings"
+              filterElements={foodPairingsArray}
+              pillName="unselected-with-another-icon"
+            ></FilterWithSearch>
           </div>
 
           <div className="col-md-8">
@@ -123,10 +145,19 @@ function VivinoPage(props) {
           </div>
         </div>
 
+        <div className="break"></div>
+
         {/* <div className="row ">
           <div className="col-md-4"></div>
           <div className="col-md-8"></div>
         </div> */}
+      </div>
+
+      <div className="row">
+        <TopFooterComponent></TopFooterComponent>
+      </div>
+      <div className="row">
+        <SecondFooterComponent></SecondFooterComponent>
       </div>
     </div>
   );
