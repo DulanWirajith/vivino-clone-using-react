@@ -1,258 +1,522 @@
-.one-item-main-div {
-  margin-left: 15px !important;
-  margin-right: 5px !important;
-  padding: 10px;
-  margin-bottom: 16px !important;
-  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.06);
-  background: #fff;
-  border-radius: 4px;
-}
+@media only screen and (min-width: 992px) {
+  .one-item-main-div {
+    margin-left: 15px !important;
+    margin-right: 5px !important;
+    padding: 10px;
+    margin-bottom: 16px !important;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    border-radius: 4px;
+  }
 
-.image-div {
-  height: 210px;
-  width: 20%;
-  background-color: rgb(200, 209, 206);
-  border-radius: 8px;
-  padding: 10px;
-}
+  .image-div {
+    height: 210px;
+    width: 20%;
+    background-color: rgb(200, 209, 206);
+    border-radius: 8px;
+    padding: 10px;
+  }
 
-.image-div2 {
-  height: 100%;
-  width: 100%;
-  border-radius: 8px;
-  display: flex;
-  // background-image: url(./../../../assests/img/bottle.png);
-  // background-repeat: no-repeat;
-  // background-position: center;
-  // background-size: contain;
-}
-.bottle-img {
-  height: 100%;
-  margin: auto;
-}
-.content-div {
-  width: 40%;
-  background-color: rgba(128, 128, 128, 0.042);
-}
+  .image-div2 {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    // background-image: url(./../../../assests/img/bottle.png);
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: contain;
+  }
+  .bottle-img {
+    height: 100%;
+    margin: auto;
+  }
+  .content-div {
+    width: 40%;
+    background-color: rgba(128, 128, 128, 0.042);
+  }
 
-.bottle-basic-details {
-  margin-left: 15px;
-  margin-top: 15px;
+  .bottle-basic-details {
+    margin-left: 15px;
+    margin-top: 15px;
 
-  .brand-title {
-    box-sizing: inherit;
-    display: block;
-    text-align: left;
-    color: #1d1d1d;
-    font-size: 14px;
+    .brand-title {
+      box-sizing: inherit;
+      display: block;
+      text-align: left;
+      color: #1d1d1d;
+      font-size: 14px;
+      line-height: normal;
+      font-weight: 400;
+    }
+    :hover {
+      color: #a11122;
+      cursor: pointer;
+    }
+
+    .bottle-name {
+      color: #484848;
+      font-size: 16px;
+      line-height: normal;
+      font-weight: 400;
+      margin-bottom: 4px;
+    }
+    :hover {
+      color: #a11122;
+      cursor: pointer;
+    }
+  }
+
+  .bottle-location {
+    display: flex;
+    margin-bottom: 8px;
+    font-size: 13px;
     line-height: normal;
     font-weight: 400;
-  }
-  :hover {
-    color: #a11122;
-    cursor: pointer;
+    color: #1d1d1d;
+
+    .flag-icon {
+      height: 15px;
+      margin-right: 12px;
+    }
+
+    .country-name {
+      margin-right: 10px;
+      color: #1d1d1d;
+    }
+    :hover {
+      color: #a11122;
+      cursor: pointer;
+    }
+
+    .region-name {
+      margin-left: 10px;
+      color: #1d1d1d;
+    }
+    :hover {
+      color: #a11122;
+      cursor: pointer;
+    }
   }
 
-  .bottle-name {
-    color: #484848;
+  .bottle-rating {
+    margin-top: 20px;
+
+    .rating-view-div {
+      display: flex;
+      align-items: center;
+      text-align: left;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex: 1 1;
+    }
+    .bottle-rating-value {
+      font-size: 40px;
+      line-height: 48px;
+      font-weight: 400;
+      margin-right: 8px;
+    }
+    :hover {
+      color: #1d1d1d !important;
+    }
+
+    .reviews-count {
+      max-width: 100%;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 400;
+    }
+  }
+
+  .price-button {
+    border-radius: 80px !important;
+    border: 0 !important;
+    color: #fff !important;
+    background-color: #02a78b !important;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    height: 48px;
+    min-width: 128px;
+  }
+  .price-button:hover {
+    border: none;
+    background-color: #02a752 !important;
+  }
+
+  .reviews-div {
+    width: 40%;
+    // background-color: rgb(219, 223, 150);
+    // margin-top: 20px;
+    padding: 16px 24px 0;
+  }
+
+  .reviews-div:hover {
+    background-color: rgba(243, 227, 222, 0.419);
+  }
+
+  .user-rating-box {
+    margin-right: 4px;
+    display: inline-flex;
+    align-items: center !important;
+    background-color: #f9f7d6;
+    border-radius: 24px;
+    padding: 4px 8px;
+  }
+
+  .user-rating-star {
+    padding-bottom: auto !important;
+    padding-top: auto !important;
+    // border: 1px solid red;
+    font-size: 16px !important;
+  }
+
+  .user-rating-number {
     font-size: 16px;
     line-height: normal;
-    font-weight: 400;
-    margin-bottom: 4px;
-  }
-  :hover {
-    color: #a11122;
-    cursor: pointer;
-  }
-}
-
-.bottle-location {
-  display: flex;
-  margin-bottom: 8px;
-  font-size: 13px;
-  line-height: normal;
-  font-weight: 400;
-  color: #1d1d1d;
-
-  .flag-icon {
-    height: 15px;
-    margin-right: 12px;
+    font-weight: 600;
+    color: #a26f01;
+    display: inline-block;
+    margin-left: 4px;
   }
 
-  .country-name {
-    margin-right: 10px;
-    color: #1d1d1d;
-  }
-  :hover {
-    color: #a11122;
-    cursor: pointer;
+  .reviews-inner-div {
+    // background-color: #484848;
   }
 
-  .region-name {
-    margin-left: 10px;
-    color: #1d1d1d;
+  .review-person-img {
+    border-radius: 80px !important;
+    // border: 1px solid red;
+    margin-left: 0px !important;
   }
-  :hover {
-    color: #a11122;
-    cursor: pointer;
+  .review-info {
+    flex-direction: row;
+    align-items: center;
+    // padding: 8px 24px 16px;
   }
-}
-
-.bottle-rating {
-  margin-top: 20px;
-
-  .rating-view-div {
+  .review-img-and-name {
     display: flex;
     align-items: center;
+    margin-top: 10px;
+  }
+
+  .review-person-name {
+    margin-left: 10px;
+
     text-align: left;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 1 1;
-  }
-  .bottle-rating-value {
-    font-size: 40px;
-    line-height: 48px;
-    font-weight: 400;
-    margin-right: 8px;
-  }
-  :hover {
-    color: #1d1d1d !important;
-  }
-
-  .reviews-count {
-    max-width: 100%;
+    color: #8e041a;
     font-size: 16px;
-    line-height: 20px;
-    font-weight: 400;
+    line-height: normal;
+    font-weight: 600;
+  }
+
+  .review-person-name:hover {
+    margin-left: 10px;
+    text-align: left;
+    color: #8e041a;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .review-date {
+    color: #a8a5a3;
+    margin-left: 10px;
+  }
+
+  .review-date:hover {
+    margin-left: 10px;
+    color: #a8a5a3;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .reviews-div-none {
+    display: none;
+  }
+
+  .view-shops-button {
+    border-radius: 80px !important;
+    border: 1 !important;
+    color: #8e041a !important;
+    background-color: transparent !important;
+    border-color: #8e041a !important;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    height: 48px;
+    min-width: 128px;
+  }
+  .view-shops-button:hover {
+    // border: none;
+    background-color: transparent !important;
+    border: 1 !important;
+    color: #8e041a !important;
+    background-color: transparent !important;
+    border-color: #8e041a !important;
   }
 }
 
-.price-button {
-  border-radius: 80px !important;
-  border: 0 !important;
-  color: #fff !important;
-  background-color: #02a78b !important;
-  float: right;
-  margin-right: 20px;
-  margin-top: 15px;
-  height: 48px;
-  min-width: 128px;
-}
-.price-button:hover {
-  border: none;
-  background-color: #02a752 !important;
-}
+@media only screen and (max-width: 600px) {
+  .one-item-main-div {
+    margin-left: 15px !important;
+    margin-right: 5px !important;
+    padding: 10px;
+    margin-bottom: 16px !important;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    border-radius: 4px;
+  }
 
-.reviews-div {
-  width: 40%;
-  // background-color: rgb(219, 223, 150);
-  // margin-top: 20px;
-  padding: 16px 24px 0;
-}
+  .image-div {
+    height: 210px;
+    width: 100%;
+    background-color: rgb(200, 209, 206);
+    border-radius: 8px;
+    padding: 10px;
+  }
 
-.reviews-div:hover {
-  background-color: rgba(243, 227, 222, 0.419);
-}
+  .image-div2 {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    // background-image: url(./../../../assests/img/bottle.png);
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: contain;
+  }
+  .bottle-img {
+    height: 150%;
+    margin: auto;
+  }
+  .content-div {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.042);
+  }
 
-.user-rating-box {
-  margin-right: 4px;
-  display: inline-flex;
-  align-items: center !important;
-  background-color: #f9f7d6;
-  border-radius: 24px;
-  padding: 4px 8px;
-}
+  .bottle-basic-details {
+    margin-left: 15px;
+    margin-top: 80px;
 
-.user-rating-star {
-  padding-bottom: auto !important;
-  padding-top: auto !important;
-  // border: 1px solid red;
-  font-size: 16px !important;
-}
+    .brand-title {
+      box-sizing: inherit;
+      display: block;
+      text-align: left;
+      color: #1d1d1d;
+      font-size: 14px;
+      line-height: normal;
+      font-weight: 400;
+    }
+    :hover {
+      color: #a11122;
+      cursor: pointer;
+    }
 
-.user-rating-number {
-  font-size: 16px;
-  line-height: normal;
-  font-weight: 600;
-  color: #a26f01;
-  display: inline-block;
-  margin-left: 4px;
-}
+    .bottle-name {
+      color: #484848;
+      font-size: 16px;
+      line-height: normal;
+      font-weight: 400;
+      margin-bottom: 4px;
+    }
+    :hover {
+      color: #a11122;
+      cursor: pointer;
+    }
+  }
 
-.reviews-inner-div {
-  // background-color: #484848;
-}
+  .bottle-location {
+    display: flex;
+    margin-bottom: 8px;
+    font-size: 13px;
+    line-height: normal;
+    font-weight: 400;
+    color: #1d1d1d;
 
-.review-person-img {
-  border-radius: 80px !important;
-  // border: 1px solid red;
-  margin-left: 0px !important;
-}
-.review-info {
-  flex-direction: row;
-  align-items: center;
-  // padding: 8px 24px 16px;
-}
-.review-img-and-name {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-}
+    .flag-icon {
+      height: 15px;
+      margin-right: 12px;
+    }
 
-.review-person-name {
-  margin-left: 10px;
+    .country-name {
+      margin-right: 10px;
+      color: #1d1d1d;
+    }
+    :hover {
+      color: #a11122;
+      cursor: pointer;
+    }
 
-  text-align: left;
-  color: #8e041a;
-  font-size: 16px;
-  line-height: normal;
-  font-weight: 600;
-}
+    .region-name {
+      margin-left: 10px;
+      color: #1d1d1d;
+    }
+    :hover {
+      color: #a11122;
+      cursor: pointer;
+    }
+  }
 
-.review-person-name:hover {
-  margin-left: 10px;
-  text-align: left;
-  color: #8e041a;
-  font-size: 16px;
-  line-height: normal;
-  font-weight: 600;
-  text-decoration: underline;
-  cursor: pointer;
-}
+  .bottle-rating {
+    margin-top: 20px;
 
-.review-date {
-  color: #a8a5a3;
-  margin-left: 10px;
-}
+    .rating-view-div {
+      display: flex;
+      align-items: center;
+      text-align: left;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex: 1 1;
+    }
+    .bottle-rating-value {
+      font-size: 40px;
+      line-height: 48px;
+      font-weight: 400;
+      margin-right: 8px;
+    }
+    :hover {
+      color: #1d1d1d !important;
+    }
 
-.review-date:hover {
-  margin-left: 10px;
-  color: #a8a5a3;
-  text-decoration: underline;
-  cursor: pointer;
-}
+    .reviews-count {
+      max-width: 100%;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 400;
+    }
+  }
 
-.reviews-div-none {
-  display: none;
-}
+  .price-button {
+    border-radius: 80px !important;
+    border: 0 !important;
+    color: #fff !important;
+    background-color: #02a78b !important;
+    float: right;
+    margin-right: 20px;
+    margin-top: -15px;
+    height: 48px;
+    min-width: 150px;
+  }
+  .price-button:hover {
+    border: none;
+    background-color: #02a752 !important;
+  }
 
-.view-shops-button {
-  border-radius: 80px !important;
-  border: 1 !important;
-  color: #8e041a !important;
-  background-color: transparent !important;
-  border-color: #8e041a !important;
-  float: right;
-  margin-right: 20px;
-  margin-top: 15px;
-  height: 48px;
-  min-width: 128px;
-}
-.view-shops-button:hover {
-  // border: none;
-  background-color: transparent !important;
-  border: 1 !important;
-  color: #8e041a !important;
-  background-color: transparent !important;
-  border-color: #8e041a !important;
+  .reviews-div {
+    width: 100%;
+    // background-color: rgb(219, 223, 150);
+    // margin-top: 20px;
+    padding: 16px 24px 0;
+  }
+
+  .reviews-div:hover {
+    background-color: rgba(243, 227, 222, 0.419);
+  }
+
+  .user-rating-box {
+    margin-right: 4px;
+    display: inline-flex;
+    align-items: center !important;
+    background-color: #f9f7d6;
+    border-radius: 24px;
+    padding: 4px 8px;
+  }
+
+  .user-rating-star {
+    padding-bottom: auto !important;
+    padding-top: auto !important;
+    // border: 1px solid red;
+    font-size: 16px !important;
+  }
+
+  .user-rating-number {
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 600;
+    color: #a26f01;
+    display: inline-block;
+    margin-left: 4px;
+  }
+
+  .reviews-inner-div {
+    // background-color: #484848;
+  }
+
+  .review-person-img {
+    border-radius: 80px !important;
+    // border: 1px solid red;
+    margin-left: 0px !important;
+  }
+  .review-info {
+    flex-direction: row;
+    align-items: center;
+    // padding: 8px 24px 16px;
+  }
+  .review-img-and-name {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .review-person-name {
+    margin-left: 10px;
+
+    text-align: left;
+    color: #8e041a;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 600;
+  }
+
+  .review-person-name:hover {
+    margin-left: 10px;
+    text-align: left;
+    color: #8e041a;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .review-date {
+    color: #a8a5a3;
+    margin-left: 10px;
+  }
+
+  .review-date:hover {
+    margin-left: 10px;
+    color: #a8a5a3;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .reviews-div-none {
+    display: none;
+  }
+
+  .view-shops-button {
+    border-radius: 80px !important;
+    border: 1 !important;
+    color: #8e041a !important;
+    background-color: transparent !important;
+    border-color: #8e041a !important;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    height: 48px;
+    min-width: 128px;
+  }
+  .view-shops-button:hover {
+    // border: none;
+    background-color: transparent !important;
+    border: 1 !important;
+    color: #8e041a !important;
+    background-color: transparent !important;
+    border-color: #8e041a !important;
+  }
 }
