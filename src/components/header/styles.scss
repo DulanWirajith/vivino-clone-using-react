@@ -36,6 +36,7 @@
 
   .show-on-mobile {
     display: block;
+    z-index: 10000;
   }
 
   .cart-img {
@@ -126,4 +127,10 @@
   // .dropdown-custom-title:hover {
   //   text-decoration: underline;
   // }
+
+  .mobile-nav-icons {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
 }

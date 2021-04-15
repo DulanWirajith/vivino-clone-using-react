@@ -69,9 +69,9 @@ function HeaderComponent(props) {
           <Navbar.Brand href="#home" className="vivino-logo">
             VIVINO
           </Navbar.Brand>
-          <img src={profileImg} />
-          <img src={searchImg} />
-          <img className="cart-img" src={cartImg} />
+          <img src={profileImg} className="mobile-nav-icons" />
+          <img src={searchImg} className="mobile-nav-icons" />
+          <img className="cart-img mobile-nav-icons" src={cartImg} />
           <Navbar.Collapse
             id="responsive-navbar-nav"
             className="mobile-nev-item"
