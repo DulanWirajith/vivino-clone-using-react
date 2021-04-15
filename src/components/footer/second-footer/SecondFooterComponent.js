@@ -8,13 +8,13 @@ function SecondFooterComponent() {
         <div className="second-footer-main-div">
           <div className="row">
             <div className="col-md-3">
-              <div class="payment-options-left">
+              <div className="payment-options-left">
                 <img src="./images/app-store.svg" className="image-show" />
                 <img src="./images/google-play.svg" className="image-show" />
               </div>
             </div>
             <div className="col-md-9">
-              <div class="payment-options-right">
+              <div className="payment-options-right">
                 <div>
                   <img src="./images/visa-icon.svg" className="image-show" />
                   <img
@@ -36,7 +36,7 @@ function SecondFooterComponent() {
                   />
                   <img src="./images/paypal-icon.svg" className="image-show" />
                 </div>
-                <div class="payment-options-right-text">
+                <div className="payment-options-right-text">
                   Payment options will vary by merchant
                 </div>
               </div>
@@ -46,50 +46,50 @@ function SecondFooterComponent() {
           <div className="row sitemap">
             <img src="./images/footer-sitemap.svg" className="image-sitemap" />
 
-            <div class="sitemap-div">
-              <a class="sitemap-one-element" title="App">
+            <div className="sitemap-div">
+              <a className="sitemap-one-element" title="App">
                 App
               </a>
-              <a class="sitemap-one-element" title="About">
+              <a className="sitemap-one-element" title="About">
                 About
               </a>
-              <a class="sitemap-one-element" title="Contact">
+              <a className="sitemap-one-element" title="Contact">
                 Contact
               </a>
-              <a class="sitemap-one-element" title="Press">
+              <a className="sitemap-one-element" title="Press">
                 Press
               </a>
-              <a class="sitemap-one-element" title="Wine News">
+              <a className="sitemap-one-element" title="Wine News">
                 Wine News
               </a>
-              <a class="sitemap-one-element" title="Wine Style Awards">
+              <a className="sitemap-one-element" title="Wine Style Awards">
                 Wine Style Awards
               </a>
-              <a class="sitemap-one-element" title="Merchants">
+              <a className="sitemap-one-element" title="Merchants">
                 Merchants
               </a>
-              <a class="sitemap-one-element" title="Sponsorships">
+              <a className="sitemap-one-element" title="Sponsorships">
                 Sponsorships
               </a>
-              <a class="sitemap-one-element" title="Become an Affiliate">
+              <a className="sitemap-one-element" title="Become an Affiliate">
                 Become an Affiliate
               </a>
-              <a class="sitemap-one-element" title="Jobs">
+              <a className="sitemap-one-element" title="Jobs">
                 Jobs
               </a>
-              <a class="sitemap-one-element" title="Terms of Use">
+              <a className="sitemap-one-element" title="Terms of Use">
                 Terms of Use
               </a>
-              <a class="sitemap-one-element" title="Privacy Policy">
+              <a className="sitemap-one-element" title="Privacy Policy">
                 Privacy Policy
               </a>
-              <a class="sitemap-one-element" title="Content Policy">
+              <a className="sitemap-one-element" title="Content Policy">
                 Content Policy
               </a>
-              <a class="sitemap-one-element" title="Terms of Sale">
+              <a className="sitemap-one-element" title="Terms of Sale">
                 Terms of Sale
               </a>
-              <a class="sitemap-one-element" title="Sitemap">
+              <a className="sitemap-one-element" title="Sitemap">
                 Sitemap
               </a>
             </div>

@@ -42,7 +42,7 @@ function OneItemShowDivComponent(props) {
             <div className="bottle-rating">
               <div className="rating-view-div">
                 <div className="bottle-rating-value">
-                  {props.bottle_rating_value}
+                  {props.bottle_rating_value.toString()}
                 </div>
                 <div>
                   <div>
@@ -56,7 +56,9 @@ function OneItemShowDivComponent(props) {
                       starSpacing="1px"
                     />
                   </div>
-                  <div className="reviews-count">{props.reviews_count}</div>
+                  <div className="reviews-count">
+                    {props.reviews_count.toString()}
+                  </div>
                 </div>
               </div>
             </div>
@@ -79,8 +81,8 @@ function OneItemShowDivComponent(props) {
                   size="small"
                   className="user-rating-star"
                 />
-                <span class="user-rating-number">
-                  {props.user_rating_number}
+                <span className="user-rating-number">
+                  {props.user_rating_number.toString()}
                 </span>
               </span>
             </span>

@@ -12,10 +12,10 @@ import FilterWithSearch from "../components/body-content-left-side/filter-with-s
 import OneItemShowDivComponent from "../components/body-content-right-side/one-item-show-div/OneItemShowDivComponent";
 import TopFooterComponent from "../components/footer/top-footer/TopFooterComponent";
 import SecondFooterComponent from "../components/footer/second-footer/SecondFooterComponent";
-import wineImg from "./../assests/img/wine-icon.svg";
-import offersImg from "./../assests/img/offer-icon.svg";
+
 import SecondNavComponent from "../components/header/mobile/second-nav/SecondNavComponent";
 import MobileFilterAndSortComponent from "../components/body-content-right-side/mobile/mobile-filter-and-sort-button/MobileFilterAndSortComponent";
+import SecondNavMobileComponent from "../components/header/mobile/mobile-second-nav/SecondNavMobileComponent";
 
 function VivinoPage(props) {
   var grapesArray = [
@@ -200,7 +200,7 @@ function VivinoPage(props) {
       <div className="header">
         <HeaderComponent></HeaderComponent>
         <SecondHeader></SecondHeader>
-        {/* <div class="second-nav">
+        {/* <div className="second-nav">
           <button>
             <img src={wineImg} className="second-nav-image" />
             <div className="dropdown-custom-title">Wines</div>
@@ -210,7 +210,8 @@ function VivinoPage(props) {
             <div className="dropdown-custom-title">Offers</div>
           </button>
         </div> */}
-        <SecondNavComponent></SecondNavComponent>
+        {/* <SecondNavComponent></SecondNavComponent> */}
+        <SecondNavMobileComponent></SecondNavMobileComponent>
       </div>
 
       <div className="body-content">

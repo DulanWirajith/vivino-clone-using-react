@@ -1,0 +1,21 @@
+@media only screen and (min-width: 992px) {
+  .display-none {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .MuiDrawer-paper {
+    width: 90% !important;
+  }
+
+  .second-mobile-nav-button {
+    width: 50%;
+    background-color: transparent !important;
+  }
+
+  .second-mobile-nav-button:focus {
+    width: 50%;
+    background-color: transparent !important;
+  }
+}

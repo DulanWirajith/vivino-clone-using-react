@@ -73,7 +73,7 @@ function MobileFilterAndSortComponent() {
 
   return (
     <div>
-      <div class="second-nav">
+      <div className="second-nav">
         <button>
           <div className="filter-custom-title" onClick={handlefilter}>
             Filter
@@ -93,7 +93,7 @@ function MobileFilterAndSortComponent() {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <div class="filter-text">Filters</div>
+          <div className="filter-text">Filters</div>
         </Modal.Header>
         <Modal.Body>
           <FilterByWineTypeComponent></FilterByWineTypeComponent>
@@ -169,11 +169,11 @@ function MobileFilterAndSortComponent() {
         </Modal.Header>
         <Modal.Body>
           <div>
-            <a class="one-sort-item">Highest User Rating</a>
-            <a class="one-sort-item">Discount</a>
-            <a class="one-sort-item">Price: Low to High</a>
-            <a class="one-sort-item">Price: High to Low</a>
-            <a class="one-sort-item">Popular</a>
+            <a className="one-sort-item">Highest User Rating</a>
+            <a className="one-sort-item">Discount</a>
+            <a className="one-sort-item">Price: Low to High</a>
+            <a className="one-sort-item">Price: High to Low</a>
+            <a className="one-sort-item">Popular</a>
           </div>
         </Modal.Body>
       </Modal>

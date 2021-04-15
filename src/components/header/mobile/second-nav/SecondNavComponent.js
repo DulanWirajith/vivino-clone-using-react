@@ -11,7 +11,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import InboxIcon from "@material-ui/icons/MoveToInbox";
 import MailIcon from "@material-ui/icons/Mail";
 import SecondFooterComponent from "../../../footer/second-footer/SecondFooterComponent";
-import "./styles.scss";
+// import "./styles.scss";
 
 const useStyles = makeStyles({
   list: {
@@ -25,9 +25,7 @@ const useStyles = makeStyles({
 function SecondNavComponent() {
   const classes = useStyles();
   const [state, setState] = React.useState({
-    top: false,
     left: false,
-    bottom: false,
     right: false,
   });
 
@@ -44,7 +42,7 @@ function SecondNavComponent() {
 
   return (
     <div>
-      {["left", "right"].map((anchor) => (
+      {["right", "right"].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
           <Drawer
