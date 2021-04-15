@@ -75,8 +75,8 @@ function OneItemShowDivComponent(props) {
               <span>
                 <Rating
                   name="read-only"
-                  max="1"
-                  value="1"
+                  max={1}
+                  value={1}
                   readOnly
                   size="small"
                   className="user-rating-star"

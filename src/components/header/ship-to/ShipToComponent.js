@@ -2,16 +2,6 @@ import React from "react";
 import { NavDropdown } from "react-bootstrap";
 import "./styles.scss";
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 function ShipToComponent(props) {
   return (
     <div>

@@ -42,12 +42,12 @@ function HeaderComponent(props) {
             <SearchBarComponent></SearchBarComponent>
           </Nav>
           <Nav>
-            <Nav.Link>
-              <ShipToComponent></ShipToComponent>
-            </Nav.Link>
-            <Nav.Link>
-              <LanguageComponent></LanguageComponent>
-            </Nav.Link>
+            {/* <Nav.Link> */}
+            <ShipToComponent></ShipToComponent>
+            {/* </Nav.Link> */}
+            {/* <Nav.Link> */}
+            <LanguageComponent></LanguageComponent>
+            {/* </Nav.Link> */}
 
             <Nav.Link>
               <img src={profileImg} />
