@@ -3,8 +3,6 @@ import FilterByWineTypeComponent from "../components/body-content-left-side/filt
 import FiltersShowingComponent from "../components/body-content-left-side/filters-showing/FiltersShowingComponent";
 import HeaderComponent from "../components/header/HeaderComponent";
 import SecondHeader from "../components/second-header/SecondHeader";
-import { RangeSlider } from "@appbaseio/reactivesearch";
-import Slider from "react-rangeslider";
 import "./styles.scss";
 import FilterByPriceRangeComponent from "../components/body-content-left-side/filter-by-price-range/FilterByPriceRangeComponent";
 import FilterByStarRatingComponent from "../components/body-content-left-side/filter-by-star-rating/FilterByStarRatingComponent";
@@ -13,7 +11,6 @@ import OneItemShowDivComponent from "../components/body-content-right-side/one-i
 import TopFooterComponent from "../components/footer/top-footer/TopFooterComponent";
 import SecondFooterComponent from "../components/footer/second-footer/SecondFooterComponent";
 
-// import SecondNavComponent from "../components/header/mobile/second-nav/SecondNavComponent";
 import MobileFilterAndSortComponent from "../components/body-content-right-side/mobile/mobile-filter-and-sort-button/MobileFilterAndSortComponent";
 import SecondNavMobileComponent from "../components/header/mobile/mobile-second-nav/SecondNavMobileComponent";
 
@@ -200,17 +197,6 @@ function VivinoPage(props) {
       <div className="header">
         <HeaderComponent></HeaderComponent>
         <SecondHeader></SecondHeader>
-        {/* <div className="second-nav">
-          <button>
-            <img src={wineImg} className="second-nav-image" />
-            <div className="dropdown-custom-title">Wines</div>
-          </button>
-          <button>
-            <img src={offersImg} className="second-nav-image" />
-            <div className="dropdown-custom-title">Offers</div>
-          </button>
-        </div> */}
-        {/* <SecondNavComponent></SecondNavComponent> */}
         <SecondNavMobileComponent></SecondNavMobileComponent>
       </div>
 
@@ -226,53 +212,57 @@ function VivinoPage(props) {
         <div className="row ">
           <div className="col-md-4 mobile-display-none">
             <FilterByWineTypeComponent></FilterByWineTypeComponent>
-            <div className="break"></div>
-            <div className="break"></div>
-            <div className="break"></div>
+            <br></br>
+            <br></br>
+            <br></br>
+
             <FilterByPriceRangeComponent></FilterByPriceRangeComponent>
+            {/* <div className="break"></div>
             <div className="break"></div>
-            <div className="break"></div>
-            <div className="break"></div>
+            <div className="break"></div> */}
+            <br></br>
+            <br></br>
+            <br></br>
             <FilterByStarRatingComponent></FilterByStarRatingComponent>
-            <div className="break"></div>
-            <div className="break"></div>
-            <div className="break"></div>
+            <br></br>
+            <br></br>
+            <br></br>
             <FilterWithSearch
               topic="Grapes"
               searchText="Search grapes"
               filterElements={grapesArray}
               pillName="unselected-without-icon"
             ></FilterWithSearch>
-            <div className="break"></div>
-            <div className="break"></div>
-            <div className="break"></div>
+            <br></br>
+            <br></br>
+            <br></br>
             <FilterWithSearch
               topic="Regions"
               searchText="Search regions"
               filterElements={regionsArray}
               pillName="unselected-without-icon"
             ></FilterWithSearch>
-            <div className="break"></div>
-            <div className="break"></div>
-            <div className="break"></div>
+            <br></br>
+            <br></br>
+            <br></br>
             <FilterWithSearch
               topic="Countries"
               searchText="Search countries"
               filterElements={countriesArray}
               pillName="unselected-with-another-icon"
             ></FilterWithSearch>
-            <div className="break"></div>
-            <div className="break"></div>
-            <div className="break"></div>
+            <br></br>
+            <br></br>
+            <br></br>
             <FilterWithSearch
               topic="Wine styles"
               searchText="Search wine styles"
               filterElements={wineStylesArray}
               pillName="unselected-without-icon"
             ></FilterWithSearch>
-            <div className="break"></div>
-            <div className="break"></div>
-            <div className="break"></div>
+            <br></br>
+            <br></br>
+            <br></br>
             <FilterWithSearch
               topic="Food pairings"
               searchText="Search food pairings"
@@ -282,10 +272,6 @@ function VivinoPage(props) {
           </div>
 
           <div className="col-md-8">
-            {/* {bodyRowContent.map((oneRow) => {
-              <OneItemShowDivComponent brand_title="Tenuta Ulisse"></OneItemShowDivComponent>;
-            })} */}
-
             {bodyRowContent.map((filterElement) => (
               <OneItemShowDivComponent
                 brand_title={filterElement.brand_title}
@@ -302,18 +288,10 @@ function VivinoPage(props) {
                 review_date={filterElement.review_date}
               />
             ))}
-            {/* <OneItemShowDivComponent brand_title="Guerrieri"></OneItemShowDivComponent>
-            <OneItemShowDivComponent brand_title="Tenuta Ulisse"></OneItemShowDivComponent>
-            <OneItemShowDivComponent brand_title="Tenuta Ulisse"></OneItemShowDivComponent> */}
           </div>
         </div>
 
         <div className="break"></div>
-
-        {/* <div className="row ">
-          <div className="col-md-4"></div>
-          <div className="col-md-8"></div>
-        </div> */}
       </div>
 
       <div className="row">
