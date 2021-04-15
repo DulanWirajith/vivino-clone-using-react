@@ -8,7 +8,9 @@
   .MuiDrawer-paper {
     width: 100% !important;
   }
-
+  .MuiDrawer-root {
+    z-index: 13000;
+  }
   .second-mobile-nav-button {
     width: 50%;
     background-color: transparent !important;
