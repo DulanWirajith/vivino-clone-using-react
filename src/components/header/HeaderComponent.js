@@ -31,7 +31,7 @@ function HeaderComponent(props) {
 
   return (
     <div>
-      {/* NAVBAR FOR LAP VIEW */}
+      {/* NAVBAR FOR LAP VIEW AND TAB VIEW */}
       <Navbar expand="lg">
         <Navbar.Brand href="#home" className="vivino-logo-lap-view">
           VIVINO
