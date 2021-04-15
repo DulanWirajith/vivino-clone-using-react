@@ -13,7 +13,7 @@ import OneItemShowDivComponent from "../components/body-content-right-side/one-i
 import TopFooterComponent from "../components/footer/top-footer/TopFooterComponent";
 import SecondFooterComponent from "../components/footer/second-footer/SecondFooterComponent";
 
-import SecondNavComponent from "../components/header/mobile/second-nav/SecondNavComponent";
+// import SecondNavComponent from "../components/header/mobile/second-nav/SecondNavComponent";
 import MobileFilterAndSortComponent from "../components/body-content-right-side/mobile/mobile-filter-and-sort-button/MobileFilterAndSortComponent";
 import SecondNavMobileComponent from "../components/header/mobile/mobile-second-nav/SecondNavMobileComponent";
 

@@ -6,14 +6,21 @@ function LanguageComponent(props) {
   return (
     <div>
       <div className="dropdown-title"> Language</div>
-      <NavDropdown title="English" id="collasible-nav-dropdown" className="dropdown-box">
-        <NavDropdown.Item href="#action/3.1" >Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+      <NavDropdown
+        title="English"
+        id="collasible-nav-dropdown"
+        className="dropdown-box"
+      >
+        <NavDropdown.Item>Dansk</NavDropdown.Item>
+        <NavDropdown.Item>Deutsch</NavDropdown.Item>
+        <NavDropdown.Item>English</NavDropdown.Item>
+        <NavDropdown.Item>Español</NavDropdown.Item>
+        <NavDropdown.Item>Français</NavDropdown.Item>
+        <NavDropdown.Item>Italiano</NavDropdown.Item>
+        <NavDropdown.Item>Nederlands</NavDropdown.Item>
+        <NavDropdown.Item>Português</NavDropdown.Item>
+        <NavDropdown.Item>Svenska</NavDropdown.Item>
       </NavDropdown>
-
     </div>
   );
 }
