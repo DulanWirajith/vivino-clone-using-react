@@ -6,7 +6,7 @@
 
 @media only screen and (max-width: 600px) {
   .MuiDrawer-paper {
-    width: 90% !important;
+    width: 100% !important;
   }
 
   .second-mobile-nav-button {
@@ -17,5 +17,21 @@
   .second-mobile-nav-button:focus {
     width: 50%;
     background-color: transparent !important;
+  }
+
+  .back-button-div {
+    background-color: rgba(0, 0, 255, 0.063);
+    font-size: 20px;
+    height: 50px !important;
+    vertical-align: middle !important;
+    padding-top: 9px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .back-img {
+    height: 15px;
+    margin-right: 20px;
   }
 }

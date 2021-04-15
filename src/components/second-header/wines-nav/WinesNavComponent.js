@@ -12,7 +12,7 @@ function WinesNavComponent(props) {
         <div className="dropdown-custom-title">Wines</div>
         <div className="dropdown-custom-content">
           <div className="row wine-raw">
-            <div className="col-md-4 remove-margin">
+            <div className="col-md-4 col-sm-12 remove-margin">
               <div className="row">
                 <div className="col-md-12">
                   <div className="col-md-12 wine-heading">
@@ -36,7 +36,7 @@ function WinesNavComponent(props) {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 remove-margin">
+            <div className="col-md-4 col-sm-12 remove-margin">
               <div className="row">
                 <div className="col-md-12">
                   <div className="col-md-12 wine-heading">
@@ -63,7 +63,7 @@ function WinesNavComponent(props) {
               </div>
             </div>
 
-            <div className="col-md-4 remove-margin">
+            <div className="col-md-4 col-sm-12 remove-margin">
               <div className="row">
                 <div className="col-md-12">
                   <div className="col-md-12 wine-heading">
@@ -93,9 +93,7 @@ function WinesNavComponent(props) {
 
           <BottomLineComponent></BottomLineComponent>
 
-          <div className="browse-wines" >
-            Browse all wines
-          </div>
+          <div className="browse-wines">Browse all wines</div>
         </div>
       </div>
     </div>

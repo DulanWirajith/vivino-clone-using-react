@@ -6,12 +6,11 @@ import PairingsNavComponent from "./pairings-nav/PairingsNavComponent";
 import GrapesNavComponent from "./grapes-nav/GrapesNavComponent";
 import RegionsNavComponent from "./regions-nav/RegionsNavComponent";
 
-
 function SecondHeader(props) {
   return (
     <div>
       <div className="row second-header">
-        <div className="col-lg-6 col-md-10">
+        <div className="">
           <div className="row">
             <div className="col-md-2">
               <WinesNavComponent></WinesNavComponent>

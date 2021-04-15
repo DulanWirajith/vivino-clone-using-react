@@ -6,9 +6,9 @@ function BottomLineComponent(props) {
     <div>
       <div className="row wine-line-raw">
         <div className="col-md-6">
-          <div className="row">
+          <div className="row ">
             <div className="col-md-2 wine-line-img-1"></div>
-            <div className="col-md-10 wine-line-content">
+            <div className="col-md-9 wine-line-content">
               <p>Browse top-rated sauvignon blanc</p>
             </div>
           </div>
@@ -16,7 +16,7 @@ function BottomLineComponent(props) {
         <div className="col-md-6">
           <div className="row">
             <div className="col-md-2 wine-line-img-2"></div>
-            <div className="col-md-10 wine-line-content">
+            <div className="col-md-9 wine-line-content">
               <p>Rare &amp; Extraordinary wines for someone quite special</p>
             </div>
           </div>
